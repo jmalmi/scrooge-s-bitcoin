@@ -1,0 +1,102 @@
+.body{
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+}
+
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #65b968;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.input{
+    border: none;
+    padding: 4px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+}
+
+.header{
+    width: 100%;
+    background-color: rgb(46, 91, 105);
+    height: 140px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.header-text{
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+
+.todayValue{
+    display: inline-flex;
+    margin: 10px;
+    font-size: smaller;
+}
+
+.dateRangeText{
+    background-color: rgb(148, 200, 202);
+    padding: 10px;
+    height: 175px;;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+.form{
+    background-color: rgb(148, 200, 202);
+    padding: 10px;
+    margin-top: 10px;
+    width: 190px;
+    height: 175px;;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+.footer{
+    position: fixed;
+    text-align: center;
+    left: 0;
+    height: 30px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(46, 91, 105);
+    color: white;
+}
+
+.chart{
+    padding-top: 50px;
+}
+
+.info{
+    margin: auto;
+    padding: 50% 0;
+}
