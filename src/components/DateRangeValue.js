@@ -65,15 +65,15 @@ function DateRangeValue() {
       } 
     }
 
-
+  const maxDate = new Date().toLocaleDateString('en-ca')
 
   return (
     <div className='container'>
       <form onSubmit={handleSubmit} className='form'>
         Starting day<br/>
-        <input className="input" type="date" onChange={e=> setStartDate(e.target.value)}/><br/>
+        <input className="input" type="date" max={maxDate} onChange={e=> setStartDate(e.target.value)}/><br/>
         Ending day<br/>
-        <input className="input" type="date" onChange={e=> setEndDate(e.target.value)}/><br/>
+        <input className="input" type="date" max={maxDate} onChange={e=> setEndDate(e.target.value)}/><br/>
         <input className="button" type="submit" value="GET BITCOIN DATA"></input>
       </form>
       <div>
