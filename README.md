@@ -1,3 +1,8 @@
+# Demo
+
+Here you can try working app https://scrooge-s-bitcoin.herokuapp.com/
+(herokuapp can be little slow, ...patience)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
